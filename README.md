@@ -1,15 +1,4 @@
 # FzXGB-fakenews
-## English version:
-A muliti-labels fake news detection model base on XGBoost and Fuzzy c-Means Clustering
-### Dataset:
-This model is trained on LIAR dataset. You can get the dataset on [this folder](liar_dataset/) or [this link](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)<br>
-![structure of this model](imgs/diagram-Page-10.png)
-### Models:
-There are 3 types of models for testing:
-- [XGboost multi-class classification](XGBoost_multiclass/)
-- [XGBoost binary + XGBoost multi-class classification](XGBoost_binary_multi/)
-- [Fuzzy XGBoost: Fuzzifier + XGBoost binary + XGBoost multi-class classification **(best score)**](FuzzyXGBoost/)
-
 ## Bản Tiếng Việt:
 Đây là một mô hình nhận diện tin giả xây dựng trên cơ sở là hai thuật toán XGBoost và Fuzzy c-Means Clustering
 ### Bộ dữ liệu thực nghiệm:
@@ -39,3 +28,14 @@ Folder này chứa các mô hình kết hợp giữa những bộ phân loại n
 - Chỉ dùng statement: [TXT+FZ.ipynb](FuzzyXGBoost/TXT+FZ.ipynb)
 - Dùng statement + metadata chữ: [TXT+CT+FZ.ipynb](FuzzyXGBoost/TXT+CT+FZ.ipynb)
 - Dùng statement + metadata chữ + metadat số: [TXT+CT+CH+FZ.ipynb](FuzzyXGBoost/TXT+CT+CH+FZ.ipynb)
+
+## English version:
+A muliti-labels fake news detection model base on XGBoost and Fuzzy c-Means Clustering
+### Dataset:
+This model is trained on LIAR dataset. You can get the dataset on [this folder](liar_dataset/) or [this link](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)<br>
+![structure of this model](imgs/diagram-Page-10.png)
+### Models:
+There are 3 types of models for testing:
+- [XGboost multi-class classification](XGBoost_multiclass/)
+- [XGBoost binary + XGBoost multi-class classification](XGBoost_binary_multi/)
+- [Fuzzy XGBoost: Fuzzifier + XGBoost binary + XGBoost multi-class classification **(best score)**](FuzzyXGBoost/)
