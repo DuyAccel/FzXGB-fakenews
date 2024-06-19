@@ -1,5 +1,4 @@
 # Fuzzy XGBoost Algorithm
-## APP DEMO (gradio + huggingface): https://duyaccel-fzxgboost.hf.space
 ## Languagues:
 - [Tiếng Việt](#tiếng-việt)
 - [English](#english)
